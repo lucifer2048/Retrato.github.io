@@ -94,7 +94,6 @@ splitTypes.forEach((char, i) => {
     });
 });
 
-
 gsap.to(".text", {
     opacity: 1,
     x: 0,
@@ -164,7 +163,6 @@ document.addEventListener('mousemove', (e) => {
 });
 
 const lenis = new Lenis();
-
 lenis.on("scroll", (e) => {
     console.log(e);
 });
