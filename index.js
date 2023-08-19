@@ -52,7 +52,7 @@ gsap.to(".fade-out-down", {
     y: 100,
     scrollTrigger: {
         trigger: ".fade-out-down",
-        start: ".fade-out-down",
+        start: "top 50%",
         end: "bottom 15%",
         scrub: true,
         markers: false,
