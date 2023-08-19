@@ -434,6 +434,9 @@ a:hover:after {
   .first {
     overflow: hidden;
   }
+  section {
+    height: 80vh;
+  }
   .top-left {
     font-size: clamp(0.7rem, 1.5vw, 4rem);
     position: relative;
