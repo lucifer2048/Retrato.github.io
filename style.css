@@ -110,16 +110,18 @@ p.italic {
   /* text-decoration: underline; */
   font-size: clamp(2rem, 9vw, 8rem);
   border-bottom: 1px;
+  line-height: 8rem;
 }
-
 .j3 {
   font-size: clamp(1rem, 4vw, 4rem);
   align-self: flex-end;
+  line-height: 7rem;
 }
 
 .j4 {
   font-size: clamp(2rem, 4vw, 4rem);
   align-self: flex-end;
+  line-height: 3rem;
 }
 
 
@@ -436,6 +438,9 @@ a:hover:after {
   }
   .j2,.j3 {
     line-height: 2.5rem;
+  }
+  .j4 {
+    line-height: 1.3rem;
   }
   section {
     height: 80vh;
