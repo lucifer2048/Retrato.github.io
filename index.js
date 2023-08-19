@@ -16,7 +16,6 @@ let countDown = new Date('September 20, 2023 00:00:00').getTime(),
 
     }, second)
 
-
 // FIRST PAGE
 
 gsap.registerPlugin(ScrollTrigger);
@@ -73,6 +72,7 @@ gsap.to(".j2", {
     },
 });
 
+//flowing animation
 const splitTypes = document.querySelectorAll(".reveal");
 
 splitTypes.forEach((char, i) => {
@@ -107,6 +107,7 @@ gsap.to(".text", {
     },
 });
 
+//cursor
 var cursor = document.querySelector('.cursor');
 var cursorinner = document.querySelector('.cursor2');
 var a = document.querySelectorAll('a');
@@ -174,21 +175,6 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
-
-
-// ------------------
-
-// $(document).ready(function () {
-
-//     $(window).scroll(function () {
-//         var scroll = $(window).scrollTop();
-//         if (scroll >= 1) {
-//             $('.arrow').addClass('fade');
-//         } else {
-//             $('.arrow').removeClass('fade');
-//         }
-//     })
-// });
 
 window.onscroll = function () { myFunction() };
 
