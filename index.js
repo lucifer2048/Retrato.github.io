@@ -76,12 +76,12 @@ gsap.to(".j2", {
 //flowing animation
 const splitTypes = document.querySelectorAll(".reveal");
 
-splitTypes.forEach((char, i) => {
-    const text = new SplitType(char, { types: "chars" });
+splitTypes.forEach((word, i) => {
+    const text = new SplitType(word, { types: "words" });
 
-    gsap.from(text.chars, {
+    gsap.from(text.words, {
         scrollTrigger: {
-            trigger: char,
+            trigger: word,
             start: "top 70%",
             end: "top 50%",
             scrub: 1,
