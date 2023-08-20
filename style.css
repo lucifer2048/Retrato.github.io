@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-html,
+/* html,
 body {
   margin: 0;
 }
@@ -16,7 +16,7 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-}
+} */
 section {
   height: 100vh;
   padding: 0 clamp(4rem, 12vw, 20rem);
