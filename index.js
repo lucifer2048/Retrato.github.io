@@ -21,7 +21,7 @@ let countDown = new Date('September 20, 2023 00:00:00').getTime(),
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".fade-out-up", {
-    opacity: 0,
+    
     y: -100,
     scrollTrigger: {
         trigger: ".fade-out-up",
@@ -29,6 +29,7 @@ gsap.to(".fade-out-up", {
         end: "bottom 20%",
         scrub: true,
         markers: false,
+        
     },
 });
 
@@ -51,7 +52,7 @@ gsap.to(".fade-out-down", {
     y: 100,
     scrollTrigger: {
         trigger: ".fade-out-down",
-        start: ".fade-out-down",
+        start: "top 40%",
         end: "bottom 15%",
         scrub: true,
         markers: false,
